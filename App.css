@@ -1,0 +1,14 @@
+.board {
+  width: 240px;
+  height: 240px;
+  border: solid black 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  height: 33.33%;
+  box-sizing: border-box;
+  flex-basis: 33.33%;
+  border: solid black 1px;
+}
